@@ -1,0 +1,8 @@
+use Test;
+use App::Rak::Complete;
+
+plan 1;
+
+ok ::('&main'), 'did &main get exported?';
+
+# vim: expandtab shiftwidth=4

@@ -1,0 +1,33 @@
+{
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "App::Rak:ver<0.2.6>:auth<zef:lizmat>",
+    "Edit::Files:ver<0.0.5>:auth<zef:lizmat>",
+    "Git::Blame::File:ver<0.0.9>:auth<zef:lizmat>",
+    "P5getgrnam:ver<0.0.9>:auth<zef:lizmat>",
+    "P5getpwnam:ver<0.0.10>:auth<zef:lizmat>",
+    "sourcery:ver<0.0.4>:auth<zef:lizmat>",
+    "Text::CSV:ver<0.010>:auth<github:Tux>"
+  ],
+  "description": "App::Rak with all its optional dependencies",
+  "license": "Artistic-2.0",
+  "name": "App::Rak::Complete",
+  "perl": "6.d",
+  "provides": {
+    "App::Rak::Complete": "lib/App/Rak/Complete.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+    "RAK"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
