@@ -6,13 +6,13 @@
   "build-depends": [
   ],
   "depends": [
-    "App::Rak:ver<0.2.6>:auth<zef:lizmat>",
+    "App::Rak:ver<0.2.7>:auth<zef:lizmat>",
     "Edit::Files:ver<0.0.5>:auth<zef:lizmat>",
     "Git::Blame::File:ver<0.0.9>:auth<zef:lizmat>",
     "P5getgrnam:ver<0.0.9>:auth<zef:lizmat>",
     "P5getpwnam:ver<0.0.10>:auth<zef:lizmat>",
     "sourcery:ver<0.0.4>:auth<zef:lizmat>",
-    "Text::CSV:ver<0.010>:auth<github:Tux>"
+    "Text::CSV:ver<0.011>:auth<github:Tux>"
   ],
   "description": "App::Rak with all its optional dependencies",
   "license": "Artistic-2.0",
@@ -29,5 +29,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }

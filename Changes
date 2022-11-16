@@ -2,5 +2,8 @@ Revision history for App-Rak-Complete
 
 {{$NEXT}}
 
+0.0.2  2022-11-16T13:21:57+01:00
+    - Bump dependencies on Text::CSV and App::Rak
+
 0.0.1  2022-11-15T12:37:30+01:00
     - Initial version

@@ -1,4 +1,4 @@
-use App::Rak:ver<0.2.6>:auth<zef:lizmat>;
+use App::Rak:ver<0.2.7>:auth<zef:lizmat>;
 
 sub EXPORT() { BEGIN Map.new: ('&main' => &main) }
 
