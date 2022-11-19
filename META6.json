@@ -6,7 +6,7 @@
   "build-depends": [
   ],
   "depends": [
-    "App::Rak:ver<0.2.9>:auth<zef:lizmat>",
+    "App::Rak:ver<0.2.10>:auth<zef:lizmat>",
     "Edit::Files:ver<0.0.5>:auth<zef:lizmat>",
     "Git::Blame::File:ver<0.0.9>:auth<zef:lizmat>",
     "P5getgrnam:ver<0.0.9>:auth<zef:lizmat>",
@@ -29,5 +29,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
