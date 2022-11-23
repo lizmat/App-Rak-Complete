@@ -2,6 +2,10 @@ Revision history for App-Rak-Complete
 
 {{$NEXT}}
 
+0.0.8  2022-11-23T22:50:31+01:00
+    - Add dependency on JSON::Path
+    - Bump dependency on App::Rak
+
 0.0.7  2022-11-19T20:11:37+01:00
     - Bump dependency on App::Rak
 
