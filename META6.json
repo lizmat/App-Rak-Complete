@@ -7,12 +7,12 @@
   ],
   "depends": [
     "App::Rak:ver<0.2.21+>:auth<zef:lizmat>",
-    "Edit::Files:ver<0.0.5>:auth<zef:lizmat>",
-    "Git::Blame::File:ver<0.0.9>:auth<zef:lizmat>",
+    "Edit::Files:ver<0.0.5+>:auth<zef:lizmat>",
+    "Git::Blame::File:ver<0.0.10+>:auth<zef:lizmat>",
     "JSON::Path:ver<1.7>",
     "MoarVM::Bytecode:ver<0.0.16+>:auth<zef:lizmat>",
-    "P5getgrnam:ver<0.0.9>:auth<zef:lizmat>",
-    "P5getpwnam:ver<0.0.10>:auth<zef:lizmat>",
+    "P5getgrnam:ver<0.0.10+>:auth<zef:lizmat>",
+    "P5getpwnam:ver<0.0.11+>:auth<zef:lizmat>",
     "PDF::Extract:ver<0.0.3+>:auth<zef:librasteve>",
     "sourcery:ver<0.0.5+>:auth<zef:lizmat>",
     "Text::CSV:ver<0.022+>:auth<zef:Tux>"

@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/App-Rak-Complete/actions/workflows/test.yml/badge.svg)](https://github.com/lizmat/App-Rak-Complete/actions)
+[![Actions Status](https://github.com/lizmat/App-Rak-Complete/actions/workflows/linux.yml/badge.svg)](https://github.com/lizmat/App-Rak-Complete/actions) [![Actions Status](https://github.com/lizmat/App-Rak-Complete/actions/workflows/macos.yml/badge.svg)](https://github.com/lizmat/App-Rak-Complete/actions)
 
 NAME
 ====

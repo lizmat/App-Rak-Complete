@@ -1,6 +1,9 @@
 Revision history for App-Rak-Complete
 
 {{$NEXT}}
+    - Bump several dependencies
+    - Add CI badge for each supported OS
+    - Add sponsor button
 
 0.0.11  2024-05-08T15:50:31+02:00
     - Bump several dependencies
