@@ -5,28 +5,39 @@
   ],
   "build-depends": [
   ],
-  "depends": [
-    "App::Rak:ver<0.2.21+>:auth<zef:lizmat>",
-    "Edit::Files:ver<0.0.5+>:auth<zef:lizmat>",
-    "Git::Blame::File:ver<0.0.10+>:auth<zef:lizmat>",
-    "JSON::Path:ver<1.7>",
-    "MoarVM::Bytecode:ver<0.0.16+>:auth<zef:lizmat>",
-    "P5getgrnam:ver<0.0.10+>:auth<zef:lizmat>",
-    "P5getpwnam:ver<0.0.11+>:auth<zef:lizmat>",
-    "PDF::Extract:ver<0.0.3+>:auth<zef:librasteve>",
-    "sourcery:ver<0.0.5+>:auth<zef:lizmat>",
-    "Text::CSV:ver<0.022+>:auth<zef:Tux>"
-  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "App::Rak:ver<0.3.20+>:auth<zef:lizmat>",
+        "Edit::Files:ver<0.0.6+>:auth<zef:lizmat>",
+        "Git::Blame::File:ver<0.0.11+>:auth<zef:lizmat>",
+        "JSON::Path:ver<1.9+>:auth<zef:raku-community-modules>",
+        "MoarVM::Bytecode:ver<0.0.26+>:auth<zef:lizmat>",
+        "P5getgrnam:ver<0.0.10+>:auth<zef:lizmat>",
+        "P5getpwnam:ver<0.0.11+>:auth<zef:lizmat>",
+        "PDF::Extract:ver<0.0.4+>:auth<zef:librasteve>",
+        "sourcery:ver<0.0.6+>:auth<zef:lizmat>",
+        "Text::CSV:ver<0.022+>:auth<zef:Tux>"
+      ]
+    }
+  },
   "description": "App::Rak with all its optional dependencies",
   "license": "Artistic-2.0",
   "name": "App::Rak::Complete",
   "perl": "6.d",
+  "production": true,
   "provides": {
     "App::Rak::Complete": "lib/App/Rak/Complete.rakumod"
   },
+  "raku": "6.d",
   "resources": [
   ],
   "source-url": "https://github.com/lizmat/App-Rak-Complete.git",
+  "support": {
+    "bugtracker": "https://github.com/lizmat/App-Rak-Complete/issues",
+    "email": "liz@raku.rocks",
+    "source": "git://github.com/lizmat/App-Rak-Complete.git"
+  },
   "tags": [
     "RAK"
   ],
