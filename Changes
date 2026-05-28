@@ -1,6 +1,8 @@
 Revision history for App-Rak-Complete
 
 {{$NEXT}}
+
+0.0.13  2026-05-28T19:39:46+02:00
     - Bump dependencies
     - Modernize META
     - Update copyright year
